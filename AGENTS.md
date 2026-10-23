@@ -4,12 +4,32 @@ This is a template repository cloned into every new project.
 
 Project-specific rules, formatting guidelines, and skill definitions live in `.agents/`.
 
-See `.agents/rules/` for agent communication style, date/time formats, typography conventions (no em/en dashes, no smart quotes, no bold-as-emphasis), writing style, and git file-move rules (`git mv` for tracked files).
+See `.agents/rules/` for agent communication style, date/time formats, typography conventions, writing style, and git file-move rules.
 
-See `.agents/skills/` for mode-specific instructions: `bun-instead-of-node` (use Bun for all runtime operations), `caveman` (ultra-compressed response mode), `dt-technical-writer` (Distilled Technical writing), `lint-md` (markdownlint workflow), and `obsidian-markdown` (Obsidian Flavored Markdown syntax).
+See `.agents/skills/` for mode-specific instructions:
 
-Markdown linting: `.markdownlint-cli2.jsonc` configures markdownlint-cli2. Run `bun x markdownlint-cli2 --fix "**/*.md"` from the project root. The linter runs automatically on save via VS Code settings (`.vscode/settings.json`). See `.agents/skills/lint-md/SKILL.md` for the full workflow.
+- `bun-instead-of-node` for use Bun for all runtime operations.
+- `caveman` for ultra-compressed response mode.
+- `dt-technical-writer` for Distilled Technical writing.
+- `lint-md` for markdownlint workflow.
+- `obsidian-markdown` for Obsidian Flavored Markdown syntax.
 
-VS Code: recommended extensions in `.vscode/extensions.json` (vscode-markdownlint, Notepad++ keybindings). Settings enable on-type markdownlint auto-fix.
+## Markdown linting
 
-Obsidian: plugin data and configuration live in `.obsidian/`. See `.agents/skills/obsidian-markdown/SKILL.md` for wikilink, embed, callout, and property syntax.
+`.markdownlint-cli2.jsonc` configures markdownlint-cli2.
+
+Run `bun x markdownlint-cli2 --fix "**/*.md"` from the project root.
+
+See `.agents/skills/lint-md/SKILL.md` for the full workflow.
+
+## VS Code
+
+Recommended extensions in `.vscode/extensions.json`.
+
+Settings enable on-type markdownlint auto-fix.
+
+## Obsidian
+
+Plugin data and configuration live in `.obsidian/`.
+
+See `.agents/skills/obsidian-markdown/SKILL.md` for wikilink, embed, callout, and property syntax.
