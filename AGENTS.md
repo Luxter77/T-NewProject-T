@@ -6,21 +6,20 @@ Project-specific rules, formatting guidelines, and skill definitions live in `.a
 
 See `.agents/rules/` for agent communication style, date/time formats, typography conventions, writing style, and git file-move rules.
 
+These rules are obligatory for this repo.
+
 See `.agents/skills/` for mode-specific instructions:
 
 - `bun-instead-of-node` for use Bun for all runtime operations.
 - `caveman` for ultra-compressed response mode.
+
+Obligatory skills for proper functions:
+
 - `dt-technical-writer` for Distilled Technical writing.
 - `lint-md` for markdownlint workflow.
 - `obsidian-markdown` for Obsidian Flavored Markdown syntax.
 
-## Markdown linting
-
-`.markdownlint-cli2.jsonc` configures markdownlint-cli2.
-
-Run `bun x markdownlint-cli2 --fix "**/*.md"` from the project root.
-
-See `.agents/skills/lint-md/SKILL.md` for the full workflow.
+You MUST load / read these before executing ANY command or reading ANY file from this repo.
 
 ## VS Code
 
