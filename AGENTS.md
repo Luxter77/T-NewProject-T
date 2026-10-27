@@ -4,7 +4,7 @@ This is a template repository cloned into every new project.
 
 Project-specific rules, formatting guidelines, and skill definitions live in `.agents/`.
 
-See `.agents/rules/` for agent communication style, date/time formats, typography conventions, writing style, and git file-move rules.
+See `.agents/rules/` for agent communication style, date/time formats, typography conventions, writing style, and git file-move rules, you MUST read and follow their directions.
 
 These rules are obligatory for this repo.
 
